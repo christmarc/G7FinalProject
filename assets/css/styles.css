@@ -17,19 +17,91 @@ LINK: https://flatuicolors.com/palette/defo
 }
 body{
     height: 100vh;
-    background:black;
+    background:white;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url("./imgs/bg.jpg");
 }
-.container{
-    width: 40%;
-    top: 50%;
-    left: 50%;
-    background: white;
-    border-radius: 10px;
+header{
+    background-color:black;
+    border-bottom:10px solid #66fcf1 ;
+}
+header h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 35px;
+    color: white;
+    padding-top: 80px;
+}
+#col2{
+    text-align:lefts;
+}
+main{
+    width: 100%;
+    background-color: white;
     min-width: 450px;
-    position: absolute;
-    min-height: 100px;
-    transform: translate(-50%,-50%);
+    min-height: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
+#logo img{
+    width: 200px;
+    margin-top: 10px;
+    
+}
+#new_task{
+    max-width: 800px;
+    margin: 100px auto;
+   
+}
+
+#Ddate{
+width: 300px;
+}
+
+
+.card {
+    width: 800px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+.card_header{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ align-items: center;
+ padding: 5px;
+}
+
+
+.card li{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+#display{
+    margin-top: 50px;
+
+}
+
+.task{
+    margin-top: 20px;
+    list-style: none;
+}
+
+#display_name{
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*
 #newtask{
     position: relative;
     padding: 30px 20px;
@@ -102,3 +174,4 @@ body{
     width: 40px;
     border-radius: 5px;
 }
+*/
