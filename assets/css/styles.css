@@ -34,6 +34,10 @@ header h1{
     color: white;
     padding-top: 80px;
 }
+h2 {
+    color: white;
+    text-align: center;
+}
 #col2{
     text-align:lefts;
 }
