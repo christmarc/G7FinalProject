@@ -1,0 +1,26 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+
+    background: #34495e;
+}
+
+.container {
+    background-color: #fff;
+    margin-top: 5vh;
+    border-radius: 10px;
+    padding: 10px;
+}
+.spacer{
+    height: 10px;
+}
+.form-control {
+    width: 100% !important;
+    align-items: center;
+}
